@@ -3,7 +3,7 @@ body { background-color: #fafafa; color: #555; font: 13px "Droid Sans", Arial, s
 .chat-item { margin-left: 1.5em; }
 .name { margin-left: -1.5em; font-weight: 700; }
 .chat-item:hover .timestamp { display: block; }
-.chat-item .timestamp { color: #bbbaaa; float: right; display:none; background: #303030; -webkit-border-radius: 6px; border-radius: 6px; opacity: 0.6; padding: 0 5px;}
+.chat-item .timestamp { color: #bbbaaa; text-align: center; display:none; background: #303030; -webkit-border-radius: 6px; border-radius: 6px; opacity: 0.6; width: 100%; }
 .status-item { margin-left: 0em; color: #999; }
 .outgoing { color: #999; }
 .incoming { color: #4d4d4d; }
