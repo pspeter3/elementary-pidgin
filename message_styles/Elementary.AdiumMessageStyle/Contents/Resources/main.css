@@ -1,7 +1,7 @@
 * { word-wrap: break-word; word-break:break-word; }
 body { background-color: #fafafa; color: #555; font: 13px "Droid Sans", Arial, sans-serif; line-height: 1.5em; }
-.chat-item { margin-left: 1.5em; }
-.name { margin-left: -1.5em; font-weight: 700; }
+.chat-item { margin-left: 1em; }
+.name { margin-left: -1em; font-weight: 700; }
 .chat-item:hover .timestamp { display: block; }
 .chat-item .timestamp { color: #bbbaaa; text-align: center; display:none; background: #303030; -webkit-border-radius: 6px; border-radius: 6px; opacity: 0.6; width: 100%; }
 .status-item { margin-left: 0em; color: #999; }
