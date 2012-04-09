@@ -1,9 +1,9 @@
 * { word-wrap: break-word; word-break:break-word; }
 body { background-color: #fafafa; color: #555; font: 13px "Droid Sans", Arial, sans-serif; line-height: 1.5em; }
-.chat-item { margin-left: 1em; }
-.name { margin-left: -1em; font-weight: 700; }
-.chat-item:hover .timestamp { display: block; }
-.chat-item .timestamp { color: #bbbaaa; text-align: center; display:none; background: #303030; -webkit-border-radius: 6px; border-radius: 6px; opacity: 0.6; width: 100%; }
+.chat-item { width: 100%; display: block; padding: 0; margin: 0; }
+.message { padding-right: 5.5em; padding-left: 1em; }
+.name { font-weight: 700; margin-left: -1em; }
+.timestamp { color: #bbbaaa; display: block; float: right; }
 .status-item { margin-left: 0em; color: #999; }
 .outgoing { color: #999; }
 .incoming { color: #4d4d4d; }
